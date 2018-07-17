@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <title>Puskas Gellert</title>
+</head>
+<body>
+<nav>
+                <ul>
+                        <li><a href="#home">Kezdőlap</a></li>
+                        <li><a href="#about">Rólunk</a></li>
+                        <li><a href="#pictures">Képek</a></li>
+                        <li><a href="#contact">Kapcsolat</a></li>
+                </ul>
+
+</nav>
+
+<section id="home">
+    <div class="bgread">
+        <div class="container">
+            <div class="row">
+                
+                <h2 class="d-none d-md-block" style="text-align: center; margin-top: 30px; font-family: 'Dancing Script', cursive;">"Ha utazol, s megismered a világ kultúráit, szűkebb hazád olyan tisztán ragyog majd előtted, hogy látó ember leszel."</h2>
+            </div>
+           
+            <a class="goto" href="#about">   <img class="arrow" src="../kepek/arrowdown2.png"></a>
+        </div>
+    </div>
+</section>  
+
+
+
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="aboutslider">
+                <form>
+                        <input type="radio" name="gender"  class="slide" onclick="func();" checked>
+                        <input type="radio" name="gender"  class="slide" onclick="func();">
+                        <input type="radio" name="gender"  class="slide" onclick="func();">
+                </form>
+            </div>
+<div class="col-12 cards">
+    <h1>Rólunk</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, libero iure blanditiis impedit voluptatum aliquid enim consequuntur ad asperiores sed porro mollitia earum eveniet odit itaque debitis aperiam eum voluptas?</p>
+</div>
+<div class="col-12 cards">
+    <h1>Szolgáltatások</h1>
+
+</div>
+<div class="col-12 cards">
+    <h1>Programok</h1>
+
+</div>
+        </div>
+        <a class="goto" href="#about">   <img class="arrow" src="../kepek/arrowdown2.png"></a>
+    </div>
+</section> 
+        
+    
+
+<section id="pictures">
+    <div class="container">
+      
+        <div class="row">
+            <div class="bigpic"></div>
+            <div class="pic col opacity"></div>
+            <div class="pic col"></div>
+            <div class="pic col"></div>
+            <div class="pic col"></div>
+            <div class="pic col"></div>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="conttitle"> 
+                <h1>Kérdéssel fordulj hozzánk!</h1> 
+             </div>
+            </div>
+            <div class="row">
+            <form >
+                <input type="text" class="formchild" name="name" placeholder="Neved.." required> <br>
+                <input type="email"  class="formchild" name="email" placeholder="E-mail.." required> <br>
+                <textarea name="massage"  class="formchild" placeholder="Massage.."rows="10"></textarea><br>
+                <input type="submit" class="submit" name="" value="Küldés">
+            </form>
+        </div>
+    </div>   
+</section>
+
+<footer>
+    <div class="container">
+            <div class="row">
+                    <p>Puskasart</p>
+                </div>
+    </div>
+
+</footer>
+</body>
+
+
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script src="slide.js"></script>
+  <script src="slidetext.js"></script>
+  <script src="menu.js"></script>
+  <script src="pics.js"></script>
+</html>
