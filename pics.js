@@ -1,5 +1,5 @@
 let images = [
-     'url(../kepek/balcsi1.jpg)', 'url(../kepek/balcsi2.jpg)', 'url(../kepek/balcsi3.jpg)', 'url(../kepek/balcsi4.jpg)', 'url(../kepek/coffe.jpg)'
+     'url(kepek/balcsi1.jpg)', 'url(kepek/balcsi2.jpg)', 'url(kepek/balcsi3.jpg)', 'url(kepek/balcsi4.jpg)', 'url(kepek/coffe.jpg)'
     ],
     pic = $('.pic'),
     bigpic = $('.bigpic'),
