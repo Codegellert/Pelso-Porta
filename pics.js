@@ -14,6 +14,7 @@ let images = [
 
 
 pic.on('click',function(){
+    
     bigpic[0].style.backgroundImage = this.style.backgroundImage;
     $(this).addClass('opacity');
     $(this).siblings().removeClass('opacity');

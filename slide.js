@@ -7,3 +7,4 @@ $croll.on('click', function(e){
     },1000, 'swing');
     e.preventDefault();
 });
+
