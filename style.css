@@ -38,6 +38,7 @@ nav .logo{
     padding: 20px;
     color: white;
     cursor: default;
+    text-align: center;
 }
 nav ul{
     list-style: none;
@@ -64,8 +65,6 @@ nav ul li a:hover{
     text-decoration: none;
 }
 
-
-
 @keyframes downarrow{
     0%{
         bottom: 10px;
@@ -80,7 +79,7 @@ nav ul li a:hover{
 .cards{
     border: 1px solid black;
     border-radius: 10px;
-    height: 50vh;
+    height: 500px;
     text-align: left;
     background-color: #eee;
     padding: 20px; 
